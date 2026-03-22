@@ -168,7 +168,7 @@ export default function ClipsPage() {
               ref={el => { videoRefs.current[i] = el; }}
               src={c.video_url}
               className="clip-video"
-              loop muted playsInline
+              loop playsInline
               poster={c.thumbnail_url || undefined}
             />
           </div>
